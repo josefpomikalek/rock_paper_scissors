@@ -29,6 +29,10 @@ scissors = '''
 
 gestures = [rock, paper, scissors]
 
-user_choice = input("What do you chose? Type 0 for Rock, 1 for Paper and 2 for Scissors. ")
+user_choice = int(input("What do you chose? Type 0 for Rock, 1 for Paper and 2 for Scissors. "))
+print("You chose:")
+print(gestures[user_choice])
 
 computer_choice = random.randint(0, 2)
+print("Computer chose:")
+print(gestures[computer_choice])
