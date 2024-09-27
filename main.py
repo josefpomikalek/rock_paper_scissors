@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -25,4 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-print(paper)
+user_choice = input("What do you chose? Type 0 for Rock, 1 for Paper and 2 for Scissors. ")
+
+computer_choice = random.randint(0, 2)
