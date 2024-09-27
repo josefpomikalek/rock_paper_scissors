@@ -27,6 +27,8 @@ scissors = '''
 ---.__(___)
 '''
 
+gestures = [rock, paper, scissors]
+
 user_choice = input("What do you chose? Type 0 for Rock, 1 for Paper and 2 for Scissors. ")
 
 computer_choice = random.randint(0, 2)
