@@ -29,7 +29,9 @@ scissors = '''
 
 gestures = [rock, paper, scissors]
 
+print()
 user_choice = int(input("What do you chose? Type 0 for Rock, 1 for Paper and 2 for Scissors. "))
+print()
 
 if user_choice > 2 or user_choice < 0:
     print("You typed an invalid number. You lose!")
@@ -38,6 +40,7 @@ else:
     print(gestures[user_choice])
 
     computer_choice = random.randint(0, 2)
+    print()
     print("Computer chose:")
     print(gestures[computer_choice])
 
@@ -55,4 +58,4 @@ else:
         print("You lose!")
     elif user_choice == 2 and computer_choice == 1:
         print("You win!")
-        
+print()
