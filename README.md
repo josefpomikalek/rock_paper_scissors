@@ -20,4 +20,3 @@ This project is a simple Python command-line version of the game where a player 
    - Lose: The computer's choice beats the player's one.
    - Draw: Both chose the same option.
 4. The game can be replayed as many times as desired.
-5. hhh
